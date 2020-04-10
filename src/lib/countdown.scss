@@ -1,0 +1,71 @@
+// Global
+body {
+  background-color: #f2f1ed;
+}
+
+.wrap {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 310px;
+}
+
+a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+h1 {
+  margin-bottom: 60px;
+  text-align: center;
+  font: 300 2.25em 'Lato';
+  text-transform: uppercase;
+
+  strong {
+    font-weight: 400;
+    color: #ea4c4c;
+  }
+}
+
+h2 {
+  margin-bottom: 80px;
+  text-align: center;
+  font: 300 0.7em 'Lato';
+  text-transform: uppercase;
+
+  strong {
+    font-weight: 400;
+  }
+}
+
+// Countdown
+.countdown {
+  width: 720px;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 45px;
+
+  .bloc-time {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-gap: 10px;
+    }
+  }
+
+  .count-title {
+    display: block;
+    margin-bottom: 15px;
+    font: normal 0.94em 'Lato';
+    color: #1a1a1a;
+    text-transform: uppercase;
+  }
+}
