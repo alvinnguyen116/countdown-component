@@ -1,9 +1,9 @@
 {
   "name": "timer-component",
-  "version": "1.0.0",
-  "description": "A React countdown component",
+  "version": "1.0.1",
+  "description": "A React timer component",
   "author": "Alvin Nguyen <alvinnguyen116@gmail.com>",
-  "keywords": [],
+  "keywords": ["react", "timer", "countdown"],
   "main": "./dist/index.js",
   "license": "MIT",
   "repository": {
