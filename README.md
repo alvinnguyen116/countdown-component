@@ -1,9 +1,9 @@
 # React Timer Component
 
 A [React](https://reactjs.org/) Timer component based on a jquery based 
-[component](https://codepen.io/doriancami/pen/jEJvaV).
+[component](https://codepen.io/doriancami/pen/jEJvaV). Displays a timer on creation and updates every second.
  
- Displays a timer on creation and updates every second.
+ Check out the live [Demo](https://alvinnguyen116.github.io/timer-demo/).
 
 ![](images/countdown-example.png)
 
